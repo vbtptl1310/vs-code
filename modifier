@@ -1,0 +1,13 @@
+class person:
+
+    def __init__(self,m,age):#parametarized
+        self.name=m
+        self.Age=age
+
+    #destructor
+    def displayAge(self):
+        print("Age:",self.age)    
+
+obj=person("abc",56)
+print("name:",obj.name)
+obj.displayAge()
